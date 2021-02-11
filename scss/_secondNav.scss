@@ -1,0 +1,139 @@
+/*segundo menu*/
+
+.secondMenu  {
+    background-color: rgb(255, 255, 255);
+        text-align: center;
+}
+.secondMenu ul{
+    list-style-type: none;
+        margin: 0px;
+        padding: 10px;
+        
+}
+.secondMenu ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.secondMenu ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    letter-spacing: 0px;
+}
+/*botones del segundo nav*/
+.secondMenu__botonOneS {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: #000000 0px -2px 10px 0px;
+}
+.secondMenu__botonTwoS {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    height: 60px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: #000000 0px -2px 10px 0px;
+}
+.secondMenu__botonTreeS {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: #000000 0px -2px 10px 0px;
+}
+.secondMenu__botonForS {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: #000000 0px -2px 10px 0px;
+}
+.secondMenu__botonFiveS {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: #000000 0px -2px 10px 0px;
+}
+.secondMenu__botonSixS {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: #000000 0px -2px 10px 0px;
+}
+.secondMenu__botonSevenS {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 8px;
+    box-shadow: #000000 0px -2px 10px 0px;
+    
+}
+/*color botones menu 2*/
+.secondMenu__botonOneS{
+    transition: heigth 2s;
+    }
+.secondMenu__botonOneS :hover{
+    box-shadow: #09531f 0px -2px 10px 0px;
+    height: 60px;
+    width: 195px;
+}
+.secondMenu__botonTwoS{
+    transition: heigth 2s;
+    }
+.secondMenu__botonTwoS :hover{
+    box-shadow: #2adae0 0px -2px 10px 0px;
+    height: 60px;
+    width: 195px;
+}
+.secondMenu__botonTreeS{
+    transition: heigth 2s;
+    }
+.secondMenu__botonTreeS :hover{
+    box-shadow: #e6862c 0px -2px 10px 0px;
+    height: 60px;
+    width: 195px;
+}
+.secondMenu__botonForS{
+    transition: heigth 2s;
+    }
+.secondMenu__botonForS :hover{
+    box-shadow: #14338a 0px -2px 10px 0px;
+    height: 60px;
+    width: 195px;
+}
+.secondMenu__botonFiveS{
+    transition: heigth 2s;
+    }
+.secondMenu__botonFiveS :hover{
+    box-shadow: #f0f337 0px -2px 10px 0px;
+    height: 60px;
+    width: 195px;
+}
+.secondMenu__botonSixS{
+    transition: heigth 2s;
+    }
+.secondMenu__botonSixS :hover{
+    box-shadow: #f11f1f 0px -2px 10px 0px;
+    height: 60px;
+    width: 195px;
+}
+.secondMenu__botonSevenS{
+    transition: heigth 2s;
+    }
+.secondMenu__botonSevenS :hover{
+    box-shadow: #190341 0px -2px 10px 0px;
+    height: 60px;
+    width: 195px;
+
+}
