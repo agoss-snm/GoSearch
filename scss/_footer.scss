@@ -79,9 +79,11 @@
             content:'|';
             color: #fcbf1e;
             padding-right: 10px;
+            
           }
           .segment-four form input[type=submit]{
             background: #fcbf1e;
+            
           }
 
           .footer-bottom-text {
@@ -92,5 +94,8 @@
 
           .footerr  .footer-bottom-text {
   color: rgb(255, 251, 251);
+}
+.footerr  form{
+  padding-top: 1rem;
 }
 

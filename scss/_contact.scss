@@ -4,22 +4,26 @@
     h2{
     color: rgb(0, 0, 0)!important;
     text-transform: uppercase;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     }
     p{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-}
-.row img{
+    }
+    .row img{
     margin-left: 200px;
     }
+    button {
+        color: #ffffff;
+        background-color:#0f4c75;
+        }
 }
 
 .contact-form{
-    background-image: url("../images/e3.jpg");
+    background-image: url("../images/fondocontact.png");
     background-repeat:round;
-        font-family: Poppins;
+        font-family: 'Poppins', sans-serif;
     color: rgb(54, 33, 33);
     padding: 20px;
     box-shadow: 0px 0px 10px 3px rgb(143, 143, 143);
@@ -28,6 +32,12 @@
 }
 
 hr{
-    background: rgb(255, 230, 5);
+    background: #fcbf1e;
 }
 
+#content img {
+    padding-top: 110px;
+    padding-left: 10px;
+    width: 85%;
+    height: 80%
+}

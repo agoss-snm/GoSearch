@@ -4,53 +4,35 @@
 #donations {
   background-color: #ffffff73;
   padding-top: 4rem;
-      hr{
-      background-color: rgb(207, 148, 81);
-      }
-      h2{
-        color:rgb(229, 255, 0);
-        background-color: rgba(0, 206, 209, 0.363);
-        font-family: 'Pontano Sans', sans-serif;
-      }
+      
+      
       p{
-        color: #eeeeee;
-        font-family: 'Pontano Sans', sans-serif;
+        color: #000000;
+        font-family: 'Poppins', sans-serif;
         text-transform: initial;
         font-size: 15px;  
         letter-spacing: 3px;
       }
-      }
+    }
 
 
 #donations .container{
-  background-image: url("../images/fondo1.jpg");
+  background-image: url("../images/donationcard2.png");
 
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     margin-top: 30px;
     padding: 10px;
-    box-shadow: 0px 0px 10px 3px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px 3px rgb(143, 143, 143);
  }
 
 
 .donations{
 padding: 80px 0;
 line-height: 25px;
-    p{
-        color: rgb(255, 255, 255);
-        text-transform: uppercase;
-        font-size:14px ;
-      }
-    a{
-    color: black;
-    font-family: 'Pontano Sans', sans-serif;
-    font-size:25px ;
-    text-align: center;
-    text-decoration: none;
-    letter-spacing: 3px;
-    padding-right: 20px;
-    }
+font-family: 'Poppins', sans-serif;
+   
     a i{
-    background-color: #1f5cb6;
+    background-color: #0f4c75;
     font-size: 40px;
     color:rgb(255, 255, 255);
     padding: 15px 15px;
@@ -67,6 +49,6 @@ line-height: 25px;
 }
 
 #donations .card{
-  background-color: #303841cc;
+  background-color: #30384100;
 
   }
