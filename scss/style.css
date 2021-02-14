@@ -130,7 +130,18 @@
   background-color: #0f4c75;
 }
 
-.contact-form {
+#content img {
+  padding-top: 110px;
+  padding-left: 10px;
+  width: 85%;
+  height: 80%;
+}
+
+#content hr {
+  background: #fcbf1e;
+}
+
+#content .contact-form {
   background-image: url("../images/fondocontact.png");
   background-repeat: round;
   font-family: 'Poppins', sans-serif;
@@ -138,17 +149,6 @@
   padding: 20px;
   -webkit-box-shadow: 0px 0px 10px 3px #8f8f8f;
           box-shadow: 0px 0px 10px 3px #8f8f8f;
-}
-
-hr {
-  background: #fcbf1e;
-}
-
-#content img {
-  padding-top: 110px;
-  padding-left: 10px;
-  width: 85%;
-  height: 80%;
 }
 
 /*Donations*/
@@ -163,6 +163,10 @@ hr {
   text-transform: initial;
   font-size: 15px;
   letter-spacing: 3px;
+}
+
+#donations .card1 {
+  background-color: #fcc11e00;
 }
 
 #donations .container {
@@ -195,10 +199,6 @@ hr {
   background-color: #1f5bb6a4;
 }
 
-#donations .card {
-  background-color: #30384100;
-}
-
 /*General*/
 * {
   padding: 0px;
@@ -228,7 +228,7 @@ h1 {
 }
 
 h2 {
-  color: #008600;
+  color: #0d110d;
   font-weight: 100;
   text-align: left;
   margin: 2px;
@@ -349,18 +349,6 @@ body {
   background-color: #faf38c;
 }
 
-/*index cards*/
-.card .navbar-brand {
-  padding: 0 !important;
-  margin: 0 !important;
-  height: 2rem;
-}
-
-.card .navbar-brand:hover {
-  -webkit-transform: translateY(-15px);
-          transform: translateY(-15px);
-}
-
 /*Carrousell Section*******************************************************/
 .carousel-caption h5 {
   text-transform: uppercase;
@@ -392,7 +380,7 @@ body {
 }
 
 .carousel-indicators {
-  background-color: #0f4c75;
+  background-color: #0f4c7500;
 }
 
 .carousel-control-next-icon:after {
@@ -620,7 +608,7 @@ body {
   color: #fff;
 }
 
-/*container webpages*/
+/*container webpages******************/
 .containerWebpages {
   padding-top: 4rem;
 }
@@ -636,6 +624,19 @@ body {
 
 .stars i {
   font-size: 18px;
-  color: #28a745;
+  color: #8d8b1f;
+}
+
+/*color secciones boton GO*************/
+.containerWebpages .card-body .btn {
+  color: #ffffff;
+  background-color: #8d8b1f;
+  border-color: #8d8b1f;
+}
+
+.containerWebpages .card-body .btn:hover {
+  color: #ffffff;
+  background-color: #97952788;
+  border-color: #97952788;
 }
 /*# sourceMappingURL=style.css.map */

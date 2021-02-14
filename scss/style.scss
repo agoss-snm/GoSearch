@@ -33,7 +33,7 @@
         }
     
     h2 {
-        color: rgb(0, 134, 0);
+        color: rgb(13, 17, 13);
         font-weight: 100;
         text-align: left;
         margin: 2px;
@@ -151,16 +151,6 @@
         
     
 
-        /*index cards*/
-.card .navbar-brand{
-        padding:0 !important; 
-        margin: 0 !important;
-        height: 2rem;
-    }
-    .card .navbar-brand:hover{
-        transform:translateY(-15px);
-    }
-
     /*Carrousell Section*******************************************************/
 
     .carousel-caption{
@@ -193,10 +183,9 @@
     }
 
     .carousel-indicators {
-      background-color: #0f4c75;
+      background-color: #0f4c7500;
   }
-  .carousel-control-next-icon:after
-{
+  .carousel-control-next-icon:after{
   content: '>';
   font-size: 55px;
   color: #0f4c75;
@@ -245,9 +234,6 @@
         color: #fcbf1e;
       }
       
-      
-
-
       /*hero section**********************************************/
       #alphago {
         width: 100%;
@@ -419,7 +405,7 @@
   }
   
 
-  /*container webpages*/
+  /*container webpages******************/
 
   .containerWebpages{
     padding-top: 4rem;
@@ -437,6 +423,20 @@
 
 .stars i {
   font-size: 18px;
-  color: #28a745
+  color: #8d8b1f;
 }
 
+/*color secciones boton GO*************/
+
+.containerWebpages .card-body .btn{
+  color: #ffffff;
+  background-color:#8d8b1f;
+  border-color: #8d8b1f;
+}
+
+.containerWebpages .card-body .btn:hover{
+  color: #ffffff;
+  background-color:#97952788;
+  border-color: #97952788;
+  
+}

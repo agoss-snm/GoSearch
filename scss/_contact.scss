@@ -7,37 +7,35 @@
     font-family: 'Poppins', sans-serif;
     text-align: center;
     }
-    p{
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    }
-    .row img{
-    margin-left: 200px;
-    }
-    button {
-        color: #ffffff;
-        background-color:#0f4c75;
-        }
-}
-
-.contact-form{
-    background-image: url("../images/fondocontact.png");
-    background-repeat:round;
+        p{
         font-family: 'Poppins', sans-serif;
-    color: rgb(54, 33, 33);
-    padding: 20px;
-    box-shadow: 0px 0px 10px 3px rgb(143, 143, 143);
-    
-    
+        text-align: center;
+        }
+            .row img{
+            margin-left: 200px;
+            }
+                button {
+                color: #ffffff;
+                background-color:#0f4c75;
+                }
+                    img {
+                    padding-top: 110px;
+                    padding-left: 10px;
+                    width: 85%;
+                    height: 80%
+                }    
+                        hr{
+                        background: #fcbf1e;
+                        }
+                            .contact-form{
+                            background-image: url("../images/fondocontact.png");
+                            background-repeat:round;
+                                font-family: 'Poppins', sans-serif;
+                            color: rgb(54, 33, 33);
+                            padding: 20px;
+                            box-shadow: 0px 0px 10px 3px rgb(143, 143, 143);
+                            }
 }
 
-hr{
-    background: #fcbf1e;
-}
 
-#content img {
-    padding-top: 110px;
-    padding-left: 10px;
-    width: 85%;
-    height: 80%
-}
+
